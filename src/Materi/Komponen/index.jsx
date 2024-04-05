@@ -7,14 +7,11 @@ export default class Komponen extends React.Component {
     render() {
         return (
             <div>
-              <ClassComponent></ClassComponent> 
-              <FunctionalComponent></FunctionalComponent>
+              <ClassComponent nama="Agnes Erika" />
+              <FunctionalComponent  />
             </div>
         );
     }
 }
 
 export { ClassComponent };
-
-
-// import ClassComponent from "./Pembahasan/classComponent";
